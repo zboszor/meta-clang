@@ -52,6 +52,7 @@ SRC_URI = "\
     file://0040-Install-arm_neon_sve_bridge.h.patch \
     file://CVE-2024-7883.patch \
     file://0001-Add-missing-include-cstdint.patch \
+    file://0001-Add-missing-include-cstdint-phase-2.patch \
     "
 # Fallback to no-PIE if not set
 GCCPIE ??= ""
