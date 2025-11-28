@@ -47,6 +47,7 @@ SRC_URI = "\
     file://0035-cmake-Enable-64bit-off_t-on-32bit-glibc-systems.patch \
     file://0036-compiler-rt-Undef-_TIME_BITS-along-with-_FILE_OFFSET.patch \
     file://0001-Add-missing-cstdint-includes.patch \
+    file://0001-Add-missing-cstdint-include-for-compiler-rt.patch \
     "
 # Fallback to no-PIE if not set
 GCCPIE ??= ""
