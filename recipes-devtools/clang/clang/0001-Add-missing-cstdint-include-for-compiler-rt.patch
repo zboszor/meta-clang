@@ -1,0 +1,30 @@
+From d23903a15f53594cda5498e3337db80a747800eb Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?Zolt=C3=A1n=20B=C3=B6sz=C3=B6rm=C3=A9nyi?=
+ <zboszor@gmail.com>
+Date: Fri, 28 Nov 2025 14:40:56 +0100
+Subject: [PATCH] Add missing <cstdint> include for compiler-rt
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Signed-off-by: Zoltán Böszörményi <zboszor@gmail.com>
+Upstream-Status: Backport
+---
+ compiler-rt/lib/orc/error.h | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/compiler-rt/lib/orc/error.h b/compiler-rt/lib/orc/error.h
+index 4c378ecc01c4..7ab5cb0b2037 100644
+--- a/compiler-rt/lib/orc/error.h
++++ b/compiler-rt/lib/orc/error.h
+@@ -14,6 +14,7 @@
+ #include "stl_extras.h"
+ 
+ #include <cassert>
++#include <cstdint>
+ #include <memory>
+ #include <string>
+ #include <type_traits>
+-- 
+2.52.0
+

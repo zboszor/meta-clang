@@ -45,6 +45,7 @@ SRC_URI = "\
     file://0034-ToolChains-Gnu.cpp-ARMLibDirs-search-also-in-lib32.patch \
     file://0035-libcxx-Implement-LWG3545-std-pointer_traits-should-be-.patch \
     file://0001-Add-missing-cstdint-includes.patch \
+    file://0001-Add-missing-cstdint-include-for-compiler-rt.patch \
     "
 # Fallback to no-PIE if not set
 GCCPIE ??= ""
