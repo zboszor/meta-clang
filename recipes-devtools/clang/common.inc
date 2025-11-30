@@ -46,6 +46,7 @@ SRC_URI = "\
     file://0034-compiler-rt-Fix-stat-struct-s-size-for-O32-ABI.patch \
     file://0035-cmake-Enable-64bit-off_t-on-32bit-glibc-systems.patch \
     file://0036-compiler-rt-Undef-_TIME_BITS-along-with-_FILE_OFFSET.patch \
+    file://0001-Add-missing-cstdint-includes.patch \
     "
 # Fallback to no-PIE if not set
 GCCPIE ??= ""
