@@ -1,0 +1,12 @@
+Signed-off-by: Zoltán Böszörményi <zboszor@gmail.com>
+
+--- llvm-project-18.1.8.src/lldb/include/lldb/Utility/AddressableBits.h.old	2026-06-14 07:04:52.113511927 +0200
++++ llvm-project-18.1.8.src/lldb/include/lldb/Utility/AddressableBits.h	2026-06-14 07:05:06.600465267 +0200
+@@ -9,6 +9,7 @@
+ #ifndef LLDB_UTILITY_ADDRESSABLEBITS_H
+ #define LLDB_UTILITY_ADDRESSABLEBITS_H
+ 
++#include <cstdint>
+ #include "lldb/lldb-forward.h"
+ 
+ namespace lldb_private {

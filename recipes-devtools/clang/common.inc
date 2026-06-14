@@ -48,6 +48,7 @@ SRC_URI = "\
     file://0035-compiler-rt-Fix-cmake-check-for-_Float16-and-__bf16.patch \
     file://0001-Add-missing-include-cstdint.patch \
     file://0001-Add-missing-include-cstdint-phase-2.patch \
+    file://0001-Add-missing-include-cstdint-phase-3.patch \
     "
 # Fallback to no-PIE if not set
 GCCPIE ??= ""
